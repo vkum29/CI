@@ -1,5 +1,7 @@
 var gulp = require('gulp');
 
 gulp.task('default', function(){
-    console.log('Running default build');
+    gulp.src('**/*.js')
+        .pipe(gulp.dest('./build'));
+        //.pipe(console.log('copied script file into build dir'));
 });
