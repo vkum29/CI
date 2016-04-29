@@ -12,3 +12,5 @@ In jenkins install node config and git config
 Git will be used to get data from git
 And node as you might be using node dependencies to use local node give node path only which is used as prefix by npm
 execute "npm config get prefix" to get the same 
+
+>> Test Polling on git push
